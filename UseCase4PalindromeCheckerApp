@@ -2,6 +2,7 @@ public class UseCase4PalindromeCheckerApp {
 
     public static void main(String[] args) {
 
+<<<<<<< HEAD
         // Original String
         String word = "radar";
 
@@ -9,12 +10,25 @@ public class UseCase4PalindromeCheckerApp {
         char[] characters = word.toCharArray();
 
         // Two-pointer variables
+=======
+        
+        String word = "radar";
+
+   
+        char[] characters = word.toCharArray();
+
+      
+>>>>>>> f03381576129e7c36dd913aa55679460668c05ba
         int start = 0;
         int end = characters.length - 1;
 
         boolean isPalindrome = true;
 
+<<<<<<< HEAD
         // Compare characters using two-pointer technique
+=======
+        
+>>>>>>> f03381576129e7c36dd913aa55679460668c05ba
         while (start < end) {
             if (characters[start] != characters[end]) {
                 isPalindrome = false;
@@ -24,11 +38,19 @@ public class UseCase4PalindromeCheckerApp {
             end--;
         }
 
+<<<<<<< HEAD
         // Display result
+=======
+       
+>>>>>>> f03381576129e7c36dd913aa55679460668c05ba
         if (isPalindrome) {
             System.out.println("The string \"" + word + "\" is a Palindrome.");
         } else {
             System.out.println("The string \"" + word + "\" is NOT a Palindrome.");
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f03381576129e7c36dd913aa55679460668c05ba
